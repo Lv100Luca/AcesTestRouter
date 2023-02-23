@@ -6,10 +6,12 @@ export default class AcesTest {
     // private _language: string = "DE";
     private _positiveResult: number[] = [0, 0, 0, 0];
     private _negativeResult: number[] = [0, 0, 0, 0];
+    private _index: number;
 
 
     constructor(Questions: Question[]) {
         this._Questions = Questions;
+        this._index = 0;
     }
 
     public addPositiveCategory(category: Category) {
@@ -25,6 +27,15 @@ export default class AcesTest {
         this._Questions[index].selectedNegative = this._Questions[index].Answer[selectedNegative];
     }
 
+    public getQuestion() {
+        if (this.hasNextQuestion()) {
+            return this.Questions[this._index++]; // does this work even?
+        } else return null; // todo: fix errorhandilng cook up something
+    }
+
+    public hasNextQuestion() {
+        return this._index + 1 >= this.Questions.length;
+    }
 
     get Questions(): Question[] {
         return this._Questions;
@@ -36,5 +47,9 @@ export default class AcesTest {
 
     get negativeResult(): number[] {
         return this._negativeResult;
+    }
+
+    get index(): number {
+        return this._index;
     }
 }
