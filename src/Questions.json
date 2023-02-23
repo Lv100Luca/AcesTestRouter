@@ -1,0 +1,535 @@
+[
+  {
+    "_Answer": [
+      {
+        "_prompt": "kritisch",
+        "_category": 0
+      },
+      {
+        "_prompt": "abeiteuerlich",
+        "_category": 1
+      },
+      {
+        "_prompt": "begeisterungsfähig",
+        "_category": 2
+      },
+      {
+        "_prompt": "besonnen",
+        "_category": 3
+      }
+    ]
+  },  {
+  "_Answer": [
+    {
+      "_prompt": "sachlich",
+      "_category": 0
+    },
+    {
+      "_prompt": "einfallsreich",
+      "_category": 1
+    },
+    {
+      "_prompt": "umgänglich",
+      "_category": 2
+    },
+    {
+      "_prompt": "geduldig",
+      "_category": 3
+    }
+  ]
+},  {
+  "_Answer": [
+    {
+      "_prompt": "gewissenhaft",
+      "_category": 0
+    },
+    {
+      "_prompt": "wagemutig",
+      "_category": 1
+    },
+    {
+      "_prompt": "offen",
+      "_category": 2
+    },
+    {
+      "_prompt": "entegegnkommend",
+      "_category": 3
+    }
+  ]
+},  {
+  "_Answer": [
+    {
+      "_prompt": "systematisch",
+      "_category": 0
+    },
+    {
+      "_prompt": "direkt",
+      "_category": 1
+    },
+    {
+      "_prompt": "optimistisch",
+      "_category": 2
+    },
+    {
+      "_prompt": "gelassen",
+      "_category": 3
+    }
+  ]
+},  {
+  "_Answer": [
+    {
+      "_prompt": "zögerlich",
+      "_category": 0
+    },
+    {
+      "_prompt": "fordernd",
+      "_category": 1
+    },
+    {
+      "_prompt": "freundlich",
+      "_category": 2
+    },
+    {
+      "_prompt": "liebenswürdig",
+      "_category": 3
+    }
+  ]
+},  {
+  "_Answer": [
+    {
+      "_prompt": "analytisch",
+      "_category": 0
+    },
+    {
+      "_prompt": "durchsetzungsfähig",
+      "_category": 1
+    },
+    {
+      "_prompt": "inspirierend",
+      "_category": 2
+    },
+    {
+      "_prompt": "zufrieden",
+      "_category": 3
+    }
+  ]
+},  {
+  "_Answer": [
+    {
+      "_prompt": "logisch",
+      "_category": 0
+    },
+    {
+      "_prompt": "unternehmenslustig",
+      "_category": 1
+    },
+    {
+      "_prompt": "spontan",
+      "_category": 2
+    },
+    {
+      "_prompt": "konservativ",
+      "_category": 3
+    }
+  ]
+},  {
+  "_Answer": [
+    {
+      "_prompt": "sorgfältig",
+      "_category": 0
+    },
+    {
+      "_prompt": "zielstrebig",
+      "_category": 1
+    },
+    {
+      "_prompt": "leutselig",
+      "_category": 2
+    },
+    {
+      "_prompt": "loyal",
+      "_category": 3
+    }
+  ]
+},  {
+  "_Answer": [
+    {
+      "_prompt": "wählerisch",
+      "_category": 0
+    },
+    {
+      "_prompt": "pioniergeistig",
+      "_category": 1
+    },
+    {
+      "_prompt": "aufgeschlossen",
+      "_category": 2
+    },
+    {
+      "_prompt": "bescheiden",
+      "_category": 3
+    }
+  ]
+},  {
+  "_Answer": [
+    {
+      "_prompt": "detailorientiert",
+      "_category": 0
+    },
+    {
+      "_prompt": "energisch",
+      "_category": 1
+    },
+    {
+      "_prompt": "sanft",
+      "_category": 2
+    },
+    {
+      "_prompt": "zufrieden",
+      "_category": 3
+    }
+  ]
+},  {
+  "_Answer": [
+    {
+      "_prompt": "korrekt",
+      "_category": 0
+    },
+    {
+      "_prompt": "herausfordernd",
+      "_category": 1
+    },
+    {
+      "_prompt": "überzeugend",
+      "_category": 2
+    },
+    {
+      "_prompt": "kooperativ",
+      "_category": 3
+    }
+  ]
+},  {
+  "_Answer": [
+    {
+      "_prompt": "anspruchsvoll",
+      "_category": 0
+    },
+    {
+      "_prompt": "kühn",
+      "_category": 1
+    },
+    {
+      "_prompt": "charmant",
+      "_category": 2
+    },
+    {
+      "_prompt": "unkompliziert",
+      "_category": 3
+    }
+  ]
+},  {
+  "_Answer": [
+    {
+      "_prompt": "Ordentlich",
+      "_category": 0
+    },
+    {
+      "_prompt": "ursprünglich",
+      "_category": 1
+    },
+    {
+      "_prompt": "verspielt",
+      "_category": 2
+    },
+    {
+      "_prompt": "zuvorkommend",
+      "_category": 3
+    }
+  ]
+},  {
+  "_Answer": [
+    {
+      "_prompt": "diszipliniert",
+      "_category": 0
+    },
+    {
+      "_prompt": "dynamisch",
+      "_category": 1
+    },
+    {
+      "_prompt": "kommunikativ",
+      "_category": 2
+    },
+    {
+      "_prompt": "hilfreich",
+      "_category": 3
+    }
+  ]
+},  {
+  "_Answer": [
+    {
+      "_prompt": "detailorientiert",
+      "_category": 0
+    },
+    {
+      "_prompt": "kraftvoll",
+      "_category": 1
+    },
+    {
+      "_prompt": "überzeugend",
+      "_category": 2
+    },
+    {
+      "_prompt": "verlässlich",
+      "_category": 3
+    }
+  ]
+},  {
+  "_Answer": [
+    {
+      "_prompt": "beharrlich",
+      "_category": 0
+    },
+    {
+      "_prompt": "selbstsicher",
+      "_category": 1
+    },
+    {
+      "_prompt": "gesellig",
+      "_category": 2
+    },
+    {
+      "_prompt": "traditionsbewusst",
+      "_category": 3
+    }
+  ]
+},  {
+  "_Answer": [
+    {
+      "_prompt": "idealistisch",
+      "_category": 0
+    },
+    {
+      "_prompt": "wettbewerbsorientiert",
+      "_category": 1
+    },
+    {
+      "_prompt": "gesellig",
+      "_category": 2
+    },
+    {
+      "_prompt": "folgsam",
+      "_category": 3
+    }
+  ]
+},  {
+  "_Answer": [
+    {
+      "_prompt": "objektiv",
+      "_category": 0
+    },
+    {
+      "_prompt": "entscheidungsfreudig",
+      "_category": 1
+    },
+    {
+      "_prompt": "beliebt",
+      "_category": 2
+    },
+    {
+      "_prompt": "zuverlässig",
+      "_category": 3
+    }
+  ]
+},  {
+  "_Answer": [
+    {
+      "_prompt": "umsichtig",
+      "_category": 0
+    },
+    {
+      "_prompt": "positiv",
+      "_category": 1
+    },
+    {
+      "_prompt": "einflussnehmend",
+      "_category": 2
+    },
+    {
+      "_prompt": "liebenswürdig",
+      "_category": 3
+    }
+  ]
+},  {
+  "_Answer": [
+    {
+      "_prompt": "berechnend",
+      "_category": 0
+    },
+    {
+      "_prompt": "offensiv",
+      "_category": 1
+    },
+    {
+      "_prompt": "vergnügt",
+      "_category": 2
+    },
+    {
+      "_prompt": "bescheiden",
+      "_category": 3
+    }
+  ]
+},  {
+  "_Answer": [
+    {
+      "_prompt": "faktenorientiert",
+      "_category": 0
+    },
+    {
+      "_prompt": "fortschrittlich",
+      "_category": 1
+    },
+    {
+      "_prompt": "taktvoll",
+      "_category": 2
+    },
+    {
+      "_prompt": "entspannt",
+      "_category": 3
+    }
+  ]
+},  {
+  "_Answer": [
+    {
+      "_prompt": "verantwortlich",
+      "_category": 0
+    },
+    {
+      "_prompt": "selbstsicher",
+      "_category": 1
+    },
+    {
+      "_prompt": "getsprächig",
+      "_category": 2
+    },
+    {
+      "_prompt": "verständnisvoll",
+      "_category": 3
+    }
+  ]
+},  {
+  "_Answer": [
+    {
+      "_prompt": "gläubig",
+      "_category": 0
+    },
+    {
+      "_prompt": "individualistisch",
+      "_category": 1
+    },
+    {
+      "_prompt": "extroveritert",
+      "_category": 2
+    },
+    {
+      "_prompt": "harminiebedürftig",
+      "_category": 3
+    }
+  ]
+},  {
+  "_Answer": [
+    {
+      "_prompt": "gesetzestreu",
+      "_category": 0
+    },
+    {
+      "_prompt": "unabhängig",
+      "_category": 1
+    },
+    {
+      "_prompt": "bewundernswert",
+      "_category": 2
+    },
+    {
+      "_prompt": "gehorsam",
+      "_category": 3
+    }
+  ]
+},  {
+  "_Answer": [
+    {
+      "_prompt": "penibel",
+      "_category": 0
+    },
+    {
+      "_prompt": "erfinderisch",
+      "_category": 1
+    },
+    {
+      "_prompt": "gepflegt",
+      "_category": 2
+    },
+    {
+      "_prompt": "gutmütig",
+      "_category": 3
+    }
+  ]
+},  {
+  "_Answer": [
+    {
+      "_prompt": "achtsam",
+      "_category": 0
+    },
+    {
+      "_prompt": "nachdrücklich",
+      "_category": 1
+    },
+    {
+      "_prompt": "diplomatisch",
+      "_category": 2
+    },
+    {
+      "_prompt": "bereitwillig",
+      "_category": 3
+    }
+  ]
+},  {
+  "_Answer": [
+    {
+      "_prompt": "aufmerksam",
+      "_category": 0
+    },
+    {
+      "_prompt": "innovativ",
+      "_category": 1
+    },
+    {
+      "_prompt": "witzig",
+      "_category": 2
+    },
+    {
+      "_prompt": "nett",
+      "_category": 3
+    }
+  ]
+},  {
+  "_Answer": [
+    {
+      "_prompt": "gewissenhaft",
+      "_category": 0
+    },
+    {
+      "_prompt": "mutig",
+      "_category": 1
+    },
+    {
+      "_prompt": "homorvoll",
+      "_category": 2
+    },
+    {
+      "_prompt": "praktisch",
+      "_category": 3
+    }
+  ]
+}
+]
