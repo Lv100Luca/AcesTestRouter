@@ -1,25 +1,25 @@
 import type Answer from "./Answer";
 
 export default class Question {
-    private _Answer: Answer[];
+    private _AnswerArray: Answer[];
     private _time: number;
     private _selectedPositive: Answer | null = null;
     private _selectedNegative: Answer | null = null;
 
 
     constructor(Answer: Answer[]) {
-        this._Answer = Answer;
+        this._AnswerArray = Answer;
         this._time = 0;
 
     }
 
 
-    get Answer(): Answer[] {
-        return this._Answer;
+    get AnswerArray(): Answer[] {
+        return this._AnswerArray;
     }
 
-    set Answer(value: Answer[]) {
-        this._Answer = value;
+    set AnswerArray(value: Answer[]) {
+        this._AnswerArray = value;
     }
 
     get time(): number {

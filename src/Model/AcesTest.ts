@@ -1,16 +1,16 @@
 import type Question from "./Question";
 import type {Category} from "./Categories";
+import Answer from "@/Model/Answer";
 
 export default class AcesTest {
-    private _Questions: Question[] = [];
-    // private _language: string = "DE";
+    private readonly _QuestionArray: Question[] = [];
     private _positiveResult: number[] = [0, 0, 0, 0];
     private _negativeResult: number[] = [0, 0, 0, 0];
     private _index: number;
 
 
     constructor(Questions: Question[]) {
-        this._Questions = Questions;
+        this._QuestionArray = Questions;
         this._index = 0;
     }
 
@@ -23,22 +23,38 @@ export default class AcesTest {
     }
 
     public setSelectedAnswer(index: number, selectedPositive: Category, selectedNegative: Category) {
-        this._Questions[index].selectedPositive = this._Questions[index].Answer[selectedPositive];
-        this._Questions[index].selectedNegative = this._Questions[index].Answer[selectedNegative];
+        this._QuestionArray[index].selectedPositive = this._QuestionArray[index].AnswerArray[selectedPositive];
+        this._QuestionArray[index].selectedNegative = this._QuestionArray[index].AnswerArray[selectedNegative];
     }
 
-    public getQuestion() {
-        if (this.hasNextQuestion()) {
-            return this.Questions[this._index++]; // does this work even?
-        } else return null; // todo: fix errorhandilng cook up something
+    public getQuestion(i: number): Question {
+        return this._QuestionArray[i];
     }
 
-    public hasNextQuestion() {
-        return this._index + 1 >= this.Questions.length;
+    public getQuestionStringArray(i: number) {
+        let outArray = [];
+        for (const answer of this.getQuestion(i).AnswerArray) {
+            outArray.push(answer.prompt)
+        }
+        return outArray;
     }
 
-    get Questions(): Question[] {
-        return this._Questions;
+    // public getQuestion() {
+    //     if (this.hasNextQuestion()) {
+    //         return this.Questions[this._index++]; // does this work even?
+    //     } else return null; // todo: fix errorhandilng cook up something
+    // }
+
+    public hasNextQuestion(currentIndex: number) {
+        return currentIndex + 1 <= this._QuestionArray.length - 1;
+    }
+
+    get QuestionArray(): Question[] {
+        return this._QuestionArray;
+    }
+
+    get length(): number {
+        return this._QuestionArray.length;
     }
 
     get positiveResult(): number[] {
@@ -49,7 +65,7 @@ export default class AcesTest {
         return this._negativeResult;
     }
 
-    get index(): number {
-        return this._index;
-    }
+    // get index(): number {
+    //     return this._index;
+    // }
 }
